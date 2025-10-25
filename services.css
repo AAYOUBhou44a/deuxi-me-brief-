@@ -161,6 +161,68 @@ h6 + a {
     padding-top: 50px;
 }
 
+.services>div:nth-of-type(1) , .services>div:nth-of-type(2) , .services>div:nth-of-type(3)  {
+    border-top: none;
+}
+
+.services>div:nth-of-type(4) , .services>div:nth-of-type(5) , .services>div:nth-of-type(6)  {
+    border-bottom: none;
+}
+
+.services>div:nth-of-type(1) , .services>div:nth-of-type(4) {
+    border-left: none;
+}
+
+.services>div:nth-of-type(3) , .services>div:nth-of-type(6) {
+    border-right: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.card {
+    height: 370px;
+    width: 210px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    box-shadow: inset 0px -20px 20px 0px #000000c7;
+}
+
+.card:nth-last-of-type(1) {
+    background-image: url(img/BG\ 1.png);
+    background-origin: content-box;
+}
+
+.card:nth-last-of-type(2) {
+    background-image: url(img/BG\ \(1\)\ 1.png);
+    background-origin: content-box;
+}
+
+.card:nth-last-of-type(3) {
+    background-image: url(img/BG\ \(2\)\ 1.png);
+    background-origin: content-box;
+}
+
+.testimonials button {
+    background-color: rgba(255, 255, 255, 0.515);
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    background-image: url(img/Play\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 .services>div>img {
     height: 50px;
     width: 50px;
